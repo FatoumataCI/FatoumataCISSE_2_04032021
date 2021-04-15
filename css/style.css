@@ -116,7 +116,7 @@ header .inscrire{
    background-color:white;
    border:lightgrey 1px solid;
    height: 40px;
-   font-size: 20px;
+   /* font-size: 20px; */
 }
 
 .button-recherche2{
@@ -193,7 +193,7 @@ header .inscrire{
 .information{
    display: flex;
    align-items: baseline;
-   font-size: 20px;
+   /* font-size: 20px; */
 }
 
 .information i{
@@ -342,9 +342,6 @@ img{
    margin-right: 17px;
 }
 
-/* h3{
-   font-size: 0.9rem;
-} */
 
 .populaires .details p{
    font-size: 14px;
@@ -483,6 +480,10 @@ footer li{
    
 /*header*/
 
+   header{
+   flex-direction: column;
+   }
+
    nav{
    display: flex;
    text-align: center;
@@ -495,8 +496,8 @@ footer li{
    margin-bottom: 10px;
    text-align: center;
    border-bottom: 2px solid #f2f2f2;
-   padding: 0 80px;
-
+   padding: 0 50px;
+   width: 50%;
    }
 
    header .inscrire{
@@ -506,11 +507,15 @@ footer li{
    padding-right: 10px;
    }
 
+   header ul{
+   width: 100%;
+   }
+
 
 /*div titre + paragraphe*/
 
    .titre1{
-   font-size: 25px;
+   font-size: 23px;
    }
 
 /*section rechercher*/
@@ -545,6 +550,9 @@ footer li{
    display: contents;
 }
 
+/*section information*/
+
+
 /*section filters*/
 
   .filters h2{
@@ -575,12 +583,16 @@ footer li{
   }
 
   .hebergements .cards{
-   /* width: 100%; */
+   width: 100%; 
   }
 
   .hebergements .cards img{
-  /*  width: 100%; */
+   width: 100%;
   }
+
+  .hebergements a{
+   width: 100%;
+   }
 
 /*activities*/
 
@@ -597,20 +609,20 @@ footer li{
   }
 
   .activities .colonne{
-   /* width: 100%;
-   height: 30%; */
+   width: 100%;
+   /* height: 30%; */
   }
 
-  .activities .colonne img{
-     
+  .activities a{
+   
   }
 
    .activities article{
-   /* width: 100%; */
+   width: 100%; 
    }
 
    .activities article .card{
-   /*  height: 10rem; */  
+   height: 10rem; 
    }
 
 /*footer*/
@@ -623,7 +635,7 @@ footer li{
 
 /*responsive media queries tablette*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
    
 /*header*/ 
 
@@ -663,9 +675,9 @@ footer li{
    width: auto;
    }
    
-   /* .populaires{
+   .populaires{
 
-   } */
+   }
 
    .populaires .cards{
    width: 100%;
@@ -683,8 +695,8 @@ footer li{
    width: auto;
    }
 
-   .hebergements{
-
+   .hebergements a{
+   width: 32%;
    }
 
    .hebergements .cards{

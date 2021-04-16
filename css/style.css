@@ -447,11 +447,7 @@ footer li{
 @media screen and (max-width: 480px) {
    
 /*header*/
-   .container{
-   width: 100%;
-   max-width: 480px;
-   margin: auto;
-   }
+
    header{
    flex-direction: column;
    margin: 0px;
@@ -492,11 +488,19 @@ footer li{
 
 /*div titre + paragraphe*/
 
+   .container-titre {
+   padding-left: 15px;
+   }
+
    .titre1{
    font-size: 23px;
    }
 
 /*section rechercher*/
+
+   .button{
+   padding-left: 15px;
+   }
    
    .button-recherche{
    font-size: 20px;
@@ -533,6 +537,7 @@ footer li{
    .filters{
    margin: 0px;
    margin-bottom: 0px;
+   padding-left: 15px;
    }
 
   .filters h2{
@@ -540,8 +545,14 @@ footer li{
   }
 
   .buttons{
-     margin: 4px;
+   margin: 4px;
   }
+
+  /*section information*/
+
+   .information{
+   padding-left: 8px;
+   }
 
 /*main*/
 
@@ -554,6 +565,11 @@ footer li{
 
    #populaires{
    width: auto;
+   padding-bottom: 22px;
+  }
+
+  #populaires h2{
+
   }
 
   .populaires .cards{
@@ -565,6 +581,11 @@ footer li{
   #hebergements{
    background-color: white;
    width: auto;
+   margin: 0px;
+   margin-top: 35px;
+  }
+
+  #hebergements h2{
    margin: 0px;
   }
 
@@ -586,7 +607,7 @@ footer li{
    width: 100%;
    height: 30%;
    margin-bottom: 1055px;
-   margin-top: 0px;
+   margin-top: 30px;
   }
 
   #activities h2{
@@ -633,20 +654,35 @@ footer li{
    
 /*header*/ 
 
+   .container-titre {
+   padding-left: 15px;
+   }
+
+   header {
+   padding-left: 15px;
+   }
+
    nav{
    margin-top: 20px;
    }
     
    header .inscrire{
    margin-top: 20px;
+   margin-right: 10px;
    }
 
 /*section filtres*/
 
    .filters{
    margin: 0px;
+   padding-left: 15px;
    }
+
 /*section recherche*/
+
+   .button{
+   padding-left: 15px;
+   }
 
    .button i{
    height: 40px;
@@ -667,7 +703,7 @@ footer li{
 /*section information*/
  
   .information{
-   text-align: left;
+   padding-left: 8px;
    }
  
 /*main*/
@@ -694,6 +730,7 @@ footer li{
    background-color: white;
    width: auto;
    margin: 0px;
+   margin-top: 25px;
    }
 
    #hebergements h2{
@@ -720,10 +757,10 @@ footer li{
    #activities h2{
    margin-bottom: 25px;
    font-size: 18px;
-   margin-top: 0px;
-   padding-left: 35px;
+   margin-top: 20px;
+   margin-left: 35px;
    }
-   
+
    .activities{
    flex-direction: column;
    width: 100%;

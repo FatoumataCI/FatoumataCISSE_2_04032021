@@ -255,9 +255,9 @@ header .inscrire{
    border-radius: 10px 10px 0 0;
 }
 
-img{
+/* img{
    object-fit: cover;
-}
+} */
 
 .hebergements .details{
    margin-left: 12px;
@@ -301,7 +301,6 @@ h3{
    font-size: 18px;
 }
 
-
 .fa-chart-line{
    margin-left: 118px;
 }
@@ -332,16 +331,15 @@ h3{
    border-radius: 10px 0px 0px 10px;
 }
 
-img{
+/* img{
    object-fit: cover;
-}
+} */
 
 .populaires .details{
    margin-bottom: 9px;
    margin-left: 21px;
    margin-right: 17px;
 }
-
 
 .populaires .details p{
    font-size: 14px;
@@ -367,15 +365,15 @@ img{
 
 .activities{
    display: flex;
-   /* height: 40rem; */
-   gap: 1rem;
+   height: 464px;
+   gap: 65px;
 }
 
 .activities .colonne{
    justify-content: space-between;
    display: flex;
    flex-direction: column;
-   /* height: 100%; */
+   height: 100%;
    gap: 40px;
 }
 
@@ -390,8 +388,20 @@ img{
    border-radius: 20px 20px 20px 20px;
    height: 100%;
 }
+.activities article{
 
-img{
+}
+
+.activities img{
+   width: 100%;
+   height: 95px;
+}
+
+.activities img{
+   height: 150px;
+}
+
+.activities img{
    object-fit: cover;
    max-width: 100% ;
    max-height: 100%;
@@ -406,19 +416,27 @@ img{
 
 /*port*/
 
-.card-port{
+.activities article .port{
    height: 95%;
 }
 
-.card-port img{
+article .port img{
    height: 100%;
+}
+
+.portt{
+object-fit: cover;
 }
 
 /*pomegues & frioul*/
 
-.card-pomegues{
-   /* height: 50%; */
+article .pomegues{
+   height: 50%; 
 }
+
+/* article .pomegues img{
+
+} */
 
 .activities .colonne div{
    height: 50%;
@@ -426,13 +444,36 @@ img{
 
 /*calanques*/
 
-.card-calanques{
+article .calanques{
    height: 95%;
 }
 
-.card-calanques img{
+article .calanques img{
    height: 100%;
 }
+
+.calanquess{
+object-fit: cover;
+}
+
+/*garde & longchamp*/
+
+/* article .garde{
+
+}
+
+article .garde img{
+
+}
+
+article .longchamp{
+
+}
+
+article .longchamp img {
+
+} */
+
 
 /*footer*/
 
@@ -500,17 +541,23 @@ footer li{
    width: 50%;
    }
 
+   li:hover{
+   border-top: none;
+   border-bottom: 2px solid #0065FC;
+   
+}  
+
    header .inscrire{
    order: 2;
    position: absolute;
    right: 0;
    padding-right: 10px;
+   margin-top: 20px;
    }
 
    header ul{
    width: 100%;
    }
-
 
 /*div titre + paragraphe*/
 
@@ -578,9 +625,9 @@ footer li{
    width: auto;
   }
 
-  .hebergements{
+  /* .hebergements{
 
-  }
+  } */
 
   .hebergements .cards{
    width: 100%; 
@@ -599,6 +646,7 @@ footer li{
   #activities{
    width: 100%;
    height: 30%;
+   margin-bottom: 1025px;
   }
 
   .activities{
@@ -613,9 +661,9 @@ footer li{
    /* height: 30%; */
   }
 
-  .activities a{
+  /* .activities a{
    
-  }
+  } */
 
    .activities article{
    width: 100%; 
@@ -624,6 +672,10 @@ footer li{
    .activities article .card{
    height: 10rem; 
    }
+
+   /* .activities img{
+
+   } */
 
 /*footer*/
 
@@ -649,13 +701,13 @@ footer li{
 
 /*section filtres*/
 
-   .filters{
+   /* .filters{
 
    }
 
    .buttons{
 
-   }
+   } */
 
 /*section information*/
  
@@ -675,18 +727,18 @@ footer li{
    width: auto;
    }
    
-   .populaires{
+   /* .populaires{
 
-   }
+   } */
 
    .populaires .cards{
    width: 100%;
    margin-bottom: 20px;
    }
 
-   .populaires .cards img{
+   /* .populaires .cards img{
 
-   }
+   } */
 
 /*hebergements*/
  
@@ -699,9 +751,9 @@ footer li{
    width: 32%;
    }
 
-   .hebergements .cards{
+   /* .hebergements .cards{
    
-   }
+   } */
    
    .hebergements .cards img{
    width: 100%;
@@ -719,7 +771,11 @@ footer li{
    justify-content: space-between;
    }
 
-   .activities .colonne{
+   #activities h2{
+   margin-left: 35px;
+   }
+
+   /* .activities .colonne{
    
    }
  
@@ -733,6 +789,6 @@ footer li{
  
    .activities article .card{
    
-   }
+   } */
  
 }

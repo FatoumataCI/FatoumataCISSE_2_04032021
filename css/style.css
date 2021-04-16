@@ -209,6 +209,10 @@ header .inscrire{
    align-items: center;
 }
 
+img {
+   object-fit: cover;
+}
+
 /*main*/
 
 .main{
@@ -261,6 +265,7 @@ header .inscrire{
 
 h3{
    font-size: 15px;
+   margin-bottom: 20px;
 }
 
 .hebergements .details p{
@@ -442,7 +447,11 @@ footer li{
 @media screen and (max-width: 480px) {
    
 /*header*/
-
+   .container{
+   width: 100%;
+   max-width: 480px;
+   margin: auto;
+   }
    header{
    flex-direction: column;
    margin: 0px;
@@ -547,6 +556,27 @@ footer li{
    width: auto;
   }
 
+  .populaires .cards{
+   width: 100%;
+  }
+
+  /* #populaires{
+   width: auto;
+   margin: 0px;
+  }
+
+  .populaires .cards{
+   width: 100%; 
+  }
+
+  .populaires .cards img{
+   width: 100%;
+  }
+
+  .populaires a{
+   width: 100%;
+   } */
+
 /*hebergements*/
 
   #hebergements{
@@ -556,7 +586,7 @@ footer li{
   }
 
   .hebergements .cards{
-   width: 100%; 
+   width: auto; 
   }
 
   .hebergements .cards img{
@@ -572,7 +602,7 @@ footer li{
   #activities{
    width: 100%;
    height: 30%;
-   margin-bottom: 1025px;
+   margin-bottom: 1055px;
    margin-top: 0px;
   }
 
@@ -590,7 +620,8 @@ footer li{
   }
 
   .activities .colonne{
-   width: 100%;
+   width: 83%;
+   padding-left: 40px;
   }
    .activities article{
    width: 100%; 
@@ -609,6 +640,7 @@ footer li{
    footer .columns{
    display: flex;
    flex-direction: column;
+   padding-left: 40px;
    }
 }
 
@@ -624,7 +656,6 @@ footer li{
     
    header .inscrire{
    margin-top: 20px;
-   margin: 0px;
    }
 
 /*section filtres*/
@@ -677,36 +708,40 @@ footer li{
    }
  
 /*activities*/
- 
-   #activities{
+
+  #activities{
    width: 100%;
    height: 30%;
+   margin-bottom: 1025px;
    margin-top: 0px;
-   }
- 
-   .activities{
+  }
+
+  #activities h2{
+   margin-bottom: 25px;
+   font-size: 18px;
+   margin-top: 0px;
+   padding-left: 35px;
+  }
+
+  .activities{
+   flex-direction: column;
    width: 100%;
-   justify-content: space-between;
-   }
+   justify-content: space-between; 
+  }
 
-   #activities h2{
-   margin-left: 35px;
-   }
-
-   /* .activities .colonne{
-   
-   }
- 
-   .activities .colonne img{
-      
-   }
- 
+  .activities .colonne{
+   width: 100%;
+  }
    .activities article{
-   
+   width: 100%; 
    }
- 
+
    .activities article .card{
-   
-   } */
+   height: 10rem; 
+   }
+
+   .activities img{
+   height: 150px;
+   }
  
 }

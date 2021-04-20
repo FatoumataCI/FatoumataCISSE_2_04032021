@@ -446,24 +446,6 @@ footer li{
 
 @media all and (max-width: 768px) {
    
-/*header*/ 
-   
-   .container-titre {
-   padding-left: 15px;
-   }
-   
-   header {
-   padding-left: 15px;
-   }
-   
-   nav{
-   margin-top: 20px;
-   }
-       
-   header .inscrire{
-   margin-top: 20px;
-   margin-right: 10px;
-   }
    
 /*section filtres*/
    
@@ -473,10 +455,6 @@ footer li{
    }
    
 /*section recherche*/
-   
-   .button{
-   padding-left: 15px;
-   }
    
    .button i{
    height: 40px;
@@ -494,12 +472,6 @@ footer li{
    width: 90px;
    }
    
-/*section information*/
-    
-   .information{
-   padding-left: 8px;
-   }
-    
 /*main*/
     
    .main{
@@ -532,7 +504,7 @@ footer li{
    }
    
    .hebergements a{
-   width: 30%;
+   width: 48%;
    }
       
    .hebergements .cards img{
@@ -542,17 +514,13 @@ footer li{
 /*activities*/
    
    #activities{
-   width: 100%;
-   height: 30%;
    margin-bottom: 1055px;
-   margin-top: 0px;
    }
       
    #activities h2{
    margin-bottom: 25px;
    font-size: 18px;
    margin-top: 20px;
-   margin-left: 35px;
    }
    
    .activities{
@@ -563,7 +531,6 @@ footer li{
       
    .activities .colonne{
    width: 89%;
-   padding-left: 40px;
    }
       
    .activities img{
@@ -575,7 +542,6 @@ footer li{
    footer .columns{
    display: flex;
    width: 75%;
-   padding-left: 40px;
    }
    
 }
@@ -593,7 +559,6 @@ footer li{
 
    nav{
    display: flex;
-   /* text-align: center; */
    margin: 0px;
    order: 3;
    width: 100%;
@@ -616,10 +581,6 @@ footer li{
    header .inscrire{
    order: 2;
    margin-left: auto;
-   /* position: absolute;
-   right: 0;
-   padding-right: 10px; 
-   margin-top: 20px; */
    }
 
    header ul{
@@ -628,20 +589,12 @@ footer li{
 
 /*div titre + paragraphe*/
 
-   .container-titre {
-   /* padding-left: 15px; */
-   }
-
    .titre1{
    font-size: 23px;
    }
 
 /*section rechercher*/
-
-   .button{
-   /* padding-left: 15px; */
-   }
-   
+ 
    .button-recherche{
    font-size: 20px;
    }
@@ -670,14 +623,13 @@ footer li{
    border-radius: 10px 10px 10px 10px;
    border: none;
    display: contents;
-}
+   }
 
 /*section filters*/
 
    .filters{
    margin: 0px;
    margin-bottom: 0px;
-   /* padding-left: 15px; */
    }
 
   .filters h2{
@@ -687,12 +639,6 @@ footer li{
   .buttons{
    margin: 4px;
   }
-
-/*section information*/
-
-   .information{
-   /* padding-left: 8px; */
-   }
 
 /*main*/
 
@@ -705,7 +651,7 @@ footer li{
 
    #populaires{
    width: auto;
-   padding-bottom: 22px;
+   border-radius: 0px;
   }
 
   .populaires .cards{
@@ -750,19 +696,12 @@ footer li{
    margin-bottom: 25px;
    font-size: 18px;
    margin-top: 0px;
-   /* padding-left: 35px; */
-  }
-
-  .activities{
-   flex-direction: column;
-   width: 100%;
-   justify-content: space-between; 
   }
 
   .activities .colonne{
    width: 100%;
-   /* padding-left: 40px; */
   }
+
    .activities article{
    width: 100%; 
    }
@@ -780,12 +719,6 @@ footer li{
    footer .columns{
    display: flex;
    flex-direction: column;
-   /* padding-left: 40px; */
    width: 100%;
    }
-
-   .container{
-   box-sizing: border-box;
-   }
 }
-

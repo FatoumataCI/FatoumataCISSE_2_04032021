@@ -615,10 +615,11 @@ footer li{
 
    header .inscrire{
    order: 2;
-   position: absolute;
+   margin-left: auto;
+   /* position: absolute;
    right: 0;
-   padding-right: 10px;
-   margin-top: 20px;
+   padding-right: 10px; 
+   margin-top: 20px; */
    }
 
    header ul{
@@ -628,7 +629,7 @@ footer li{
 /*div titre + paragraphe*/
 
    .container-titre {
-   padding-left: 15px;
+   /* padding-left: 15px; */
    }
 
    .titre1{
@@ -638,7 +639,7 @@ footer li{
 /*section rechercher*/
 
    .button{
-   padding-left: 15px;
+   /* padding-left: 15px; */
    }
    
    .button-recherche{
@@ -676,7 +677,7 @@ footer li{
    .filters{
    margin: 0px;
    margin-bottom: 0px;
-   padding-left: 15px;
+   /* padding-left: 15px; */
    }
 
   .filters h2{
@@ -690,7 +691,7 @@ footer li{
 /*section information*/
 
    .information{
-   padding-left: 8px;
+   /* padding-left: 8px; */
    }
 
 /*main*/
@@ -749,7 +750,7 @@ footer li{
    margin-bottom: 25px;
    font-size: 18px;
    margin-top: 0px;
-   padding-left: 35px;
+   /* padding-left: 35px; */
   }
 
   .activities{
@@ -767,7 +768,7 @@ footer li{
    }
 
    .activities article .card{
-   height: 10rem; 
+   height: 160px; 
    }
 
    .activities img{
@@ -779,7 +780,7 @@ footer li{
    footer .columns{
    display: flex;
    flex-direction: column;
-   padding-left: 40px;
+   /* padding-left: 40px; */
    width: 100%;
    }
 

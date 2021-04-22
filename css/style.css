@@ -327,12 +327,11 @@ h3{
 
 .populaires a{
    display: flex;
+   height: 134px;
 }
 
 .populaires .cards img{
-   width: 127px;
-   height: 134px;
-   max-height: 134px;
+   width: 100px;
    border-radius: 15px 0px 0px 15px;
 }
 

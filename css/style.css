@@ -19,7 +19,11 @@ a{
 }
 
 a :hover{
+   border-color:white;
    color: blue;
+   font-style: italic;
+   border-color: blue;
+   border-style: white;
 }
 
 /*header*/

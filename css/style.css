@@ -23,7 +23,6 @@ a :hover{
    color: blue;
    font-style: italic;
    border-color: blue;
-   border-style: white;
 }
 
 /*header*/
@@ -200,7 +199,6 @@ header .inscrire{
 .information{
    display: flex;
    align-items: baseline;
-   /* font-size: 20px; */
 }
 
 .information i{
@@ -370,7 +368,7 @@ h3{
 .activities{
    display: flex;
    height: 464px;
-   gap: 65px;
+   gap: 30px;
 }
 
 .activities .colonne{
@@ -455,6 +453,15 @@ footer li{
    
    *{
    box-sizing: border-box;
+   }
+/*header*/
+
+   header .header-logo{
+   padding-left: 10px;
+   }
+
+   header .inscrire{
+   padding-right: 10px;
    }
 
 /*section div + paragraphe*/
